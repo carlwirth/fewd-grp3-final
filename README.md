@@ -7,7 +7,6 @@ Group collaboration - final project - FEWD class - Fall 2019
  This is a website built for Sawdust and Dreams in Benson, NC. 
  
  The team members include: Carl Wirth, Cristy Hutchins,  
-   
     This was a group effort.  We used Visual Studio Code to build the required code.  We utilized GitHub as our Repository host.  
 
 A general site design were discussed with the end client.  Based on this, a plan was deeloped to built the site to client specs.  Work needed was discussed in our group.  Strategy was layed out.  Necessary work was divided up.  
