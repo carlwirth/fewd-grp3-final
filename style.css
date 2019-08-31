@@ -1,0 +1,110 @@
+.homepage {
+    margin: 0;
+}
+
+@font-face {
+    font-family: woodbadge;
+    src: url("media/fonts/Woodbadge.ttf");
+}
+
+.headerdiv {
+    background-image: linear-gradient(#5477b7 25%, #7face3 75%, #86b4e8 100%);
+    width: 100%;
+    height: 240px;
+}
+
+.headerbg {
+    background-color: transparent;
+    background-size: contain;
+    background-position: left;
+    background-repeat: no-repeat;
+    width: inherit;
+    height: inherit;
+}
+
+.headertext {
+    position: relative;
+    width: inherit;
+    height: inherit;
+}
+
+.headertext p {
+    bottom: 0;
+    font-size: 85px;
+    color: #fff;
+    position: absolute;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.navibar {
+    display: flex;
+    margin: auto;
+    border-radius: 5px;
+    border: 8px solid crimson;
+    width: 97vw;
+    height: 30px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 2px;
+}
+
+.navibar a {
+    background-color: #f0fff0;
+    border-right: solid crimson 8px;
+    display: block;
+    float: left;
+    font-size: 24px;
+    width: 19.9%;
+    height: inherit;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 2px;
+}
+
+.mainblock {
+    background-color: white;
+    /* background-color: #fafaf2; */
+    /* font-family: cursive; */
+    margin: 0 auto;
+    width: 100%;
+    /* display: flex; */
+    /* border: 25px; */
+}
+
+.column-c-four-eyes {
+    display: block;
+    width: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.column-c-four-eyes:hover {
+    transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+}
+
+.social-media-links {
+    vertical-align: middle;
+    width: 48px;
+}
+
+.footer {
+    background-color: #5477b7;
+    position: absolute;
+    width: 100%;
+}
+
+.footer a {
+    margin: 10 8px;
+}
+
+.footer p {
+    font-size: 20px;
+    color: #fff;
+    margin: 12px;
+}
