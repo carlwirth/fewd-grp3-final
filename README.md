@@ -2,7 +2,7 @@
 Group collaboration - final project - FEWD class - Fall 2019  
 
 Assignment:  
-    Build a true to life website for a real or ficticious client.  Utilize all base design parameters listed as part of assignment.  Divide the workload.  Utilize GitHub push/pull to allow each team partner to build their sections of the work.  
+   - Build a true to life website for a real or ficticious client.  Utilize all base design parameters listed as part of assignment.  Divide the workload.  Utilize GitHub push/pull to allow each team partner to build their sections of the work.  
 
 This is a website built for Sawdust and Dreams in Benson, NC. 
    - A general site design were discussed with the end client.  Kate, the client, was told we were to treat this as if she were a paying client.  
