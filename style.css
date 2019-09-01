@@ -66,13 +66,10 @@
 
 .mainblock {
     background-color: white;
-    /* background-color: #fafaf2; */
-    /* font-family: cursive; */
     margin: 0 auto;
     width: 100%;
     font-size: 60px;
-    /* display: flex; */
-    /* border: 25px; */
+    border: 10px;
 }
 
 .column-c-four-eyes {
