@@ -8,7 +8,7 @@ This is a website built for Sawdust and Dreams in Benson, NC.
    - A general site design were discussed with the end client.  Kate, the client, was told we were to treat this as if she were a paying client.  
       - Based on this, a plan was developed to built the site to client specs.  Work needed was discussed in our group.  Strategy was layed out.  Necessary work was divided up. 
  
-The team members include: Carl Wirth, Cristy Hutchins, Des, and Brandon. 
+The team members include: Carl Wirth, Cristy Hutchins, Desiree VanSyckle, and Brandon Bathea. 
    - This was a group effort.  We used Visual Studio Code to build the required code.  We utilized GitHub as our Repository host.  
  
 Result:  (TBD) 
