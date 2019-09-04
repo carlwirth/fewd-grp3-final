@@ -2,6 +2,7 @@
     margin: 0;
 }
 
+@import url('https://fonts.googleapis.com/css?family=Tangerine&display=swap');
 @font-face {
     font-family: woodbadge;
     src: url("media/fonts/Woodbadge.ttf");
@@ -20,6 +21,7 @@
     background-repeat: no-repeat;
     width: inherit;
     height: inherit;
+    /* padding: 8px; */
 }
 
 .headerbg1 {
@@ -29,6 +31,7 @@
     background-repeat: no-repeat;
     width: inherit;
     height: inherit;
+    /* padding: 8px; */
 }
 
 .headertext {
@@ -43,6 +46,7 @@
     color: purple;
     position: absolute;
     text-align: center;
+    font-family: "Tangerine";
     margin: 0;
     padding: 0;
     width: 100%;
@@ -52,7 +56,7 @@
     display: flex;
     margin: auto;
     border-radius: 5px;
-    border: 8px solid purple;
+    /* border: 8px solid purple; */
     width: 97vw;
     height: 30px;
     position: -webkit-sticky;
@@ -62,12 +66,13 @@
 
 .navibar a {
     background-color: #f0fff0;
-    border-right: solid purple 8px;
+    border-right: solid purple 4px;
     display: block;
     float: left;
     font-size: 24px;
     width: 19.9%;
     height: inherit;
+    font-family: "Raleway";
     text-align: center;
     text-decoration: none;
     padding-top: 2px;
