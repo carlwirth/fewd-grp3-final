@@ -137,7 +137,7 @@
 }
 
 
-/* This area for the COntact Page CSS data. */
+/* This area for the Contact Page CSS data. */
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
 * {
@@ -159,6 +159,7 @@
     font-size: 12px;
     line-height: 30px;
     color: #777;
+    /* color: #81F781; */
     background: #0CF;
 }
 
@@ -179,7 +180,8 @@
 }
 
 #contact {
-    background: #F9F9F9;
+    /* background: #F9F9F9; */
+    background: #CEF6CE;
     padding: 25px;
     margin: 50px 0;
 }
@@ -264,10 +266,12 @@ fieldset {
 
 ::-webkit-input-placeholder {
     color: #888;
+    /* color: #81F781; */
 }
 
 :-moz-placeholder {
     color: #888;
+    /* color: #81F781; */
 }
 
 ::-moz-placeholder {
