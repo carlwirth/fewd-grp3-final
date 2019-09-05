@@ -39,21 +39,26 @@
         <a href="contact.html" style="border-right: none" alt="Send us an email" title="Send us an email">Contact</a>
 
     </div>
-    <div class="glider-contain multiple">
+
+    <div class="glider-contain multiple" style="margin:50px">
         <button class="glider-prev">
             <i class="fa fa-chevron-left"></i>
-        </button>url(image)
-        <div class="glider">
-            <div>url('images/tieblankets.png')</div>
-            <div>url('images/birthdayboard.jpg')</div>
-            <div>url('images/herbgardenstand.jpg')</div>
-
-            <div class="glider-contain multiple">
-                <button class="glider-next">
-            <i class="fa fa-chevron-right"></i>
         </button>
+        <div class="glider">
+            <img src="images/tieblankets.png">
+            <img src="images/birthday board.jpg">
+            <img src="images/herb-garden-stand.jpeg">
+            <img src="images/herb-garden-stand.jpeg">
+        </div>
+         <button class="glider-next">
+            <i class="fa fa-chevron-right"></i>
+        </button>        
+    
+        <div id="dots" class="glider-dots"></div>
+    </div>
 
-                <div id="dots" class="glider-dots"></div>
+    <div class="mainblock" style="height: 2024px">
+        <!-- height - this is just to hold a large mainblock area -->
 
             </div>
         </div>
@@ -122,20 +127,19 @@
                 <br>
             </div>
         </div>
-
-
-        <script src="glider.min.js"></script>
-        <script>
-            new Glider(document.querySelector('.glider'), {
-                slidesToShow: 3,
-                draggable: true,
-                dots: 'dots',
-                arrows: {
-                    prev: '.glider-prev',
-                    next: '.glider-next',
-                }
-            });
-        </script>
+    </div>
+<script src="js/glider.min.js"></script>
+<script>
+    new Glider(document.querySelector('.glider'), {
+        slidesToShow: 3,
+        draggable: true,
+        dots: 'dots',
+        arrows: {
+            prev: '.glider-prev',
+            next: '.glider-next',
+        }
+    });
+</script>
 </body>
 
 </html>
