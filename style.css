@@ -18,6 +18,8 @@
     background-color: transparent;
     background-size: contain;
     background-position: left;
+    /* background-position-x: 1%;
+    background-position-y: 1%; */
     background-repeat: no-repeat;
     width: inherit;
     height: inherit;
@@ -28,6 +30,7 @@
     background-color: transparent;
     background-size: contain;
     background-position: right;
+    /* background-position-x: %; */
     background-repeat: no-repeat;
     width: inherit;
     height: inherit;
@@ -81,7 +84,7 @@
 .mainblock {
     background-color: white;
     margin: 0 auto;
-    width: 100%;
+    width: 97%;
     font-size: 50px;
     border: 10px;
 }
@@ -122,14 +125,16 @@
 }
 
 .footer {
-    background-color: #5477b7;
+    background-image: linear-gradient(#5477b7 40%, #7face3 80%, #86b4e8 100%);
+    /* background-color: #5477b7; */
     position: absolute;
     width: 100%;
 }
 
-.footer2 {
+
+/* .footer2 {
     background-image: linear-gradient(#5477b7 40%, #7face3 80%, #86b4e8 100%);
-}
+} */
 
 .footer a {
     margin: 10 8px;
