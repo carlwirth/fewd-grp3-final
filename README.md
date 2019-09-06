@@ -10,6 +10,8 @@ This is a website built for Sawdust and Dreams in Benson, NC.
  
 The team members include: Carl Wirth, Christy Hutchins, Desiree VanSyckle, and Brandon Bathea. 
    - This was a group effort.  We used Visual Studio Code to build the required code.  We utilized GitHub as our Repository host.  
- 
+
+    
+    
 Result:  (TBD) 
 
