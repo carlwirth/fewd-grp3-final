@@ -157,12 +157,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    -webkit-box-sizing: border-box;
+    /* -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
-    -moz-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: antialiased;
     -o-font-smoothing: antialiased;
-    font-smoothing: antialiased;
+    font-smoothing: antialiased; */
     text-rendering: optimizeLegibility;
 }
 
@@ -302,7 +302,7 @@ fieldset {
 /* This area is for the About Page CSS*/
 
 .sectionblock {
-    display: flex
+    display: flex;
 }
 
 .image-left-text-right-container {
@@ -317,7 +317,8 @@ fieldset {
     margin-top: 5px;
     margin-left: 100px;
     margin-right: auto;
-    margin-bottom: 100px display: flex;
+    margin-bottom: 100px;
+    display: flex;
     flex-direction: row-reverse;
     justify-content: flex-end;
 }
@@ -332,26 +333,21 @@ fieldset {
   display: relative;
 } */
 
-.photos-div {
+.about-div {
     width: 720px;
     height: 460px;
     position: relative;
     margin: 0 auto;
 }
 
-.photos-text {
+.about-text {
     background-color: #335875;
     width: 660px;
     height: inherit;
     z-index: 2;
-    color: #fff;
-    font-size: 22px;
-    /* margin: 3px; */
-    /* margin-left: 6px; */
-    padding-left: 12px;
 }
 
-.photos-image {
+.about-image {
     width: 320px;
     height: 320px;
     background-size: cover;
