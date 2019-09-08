@@ -333,21 +333,26 @@ fieldset {
   display: relative;
 } */
 
-.about-div {
+.photos-div {
     width: 720px;
     height: 460px;
     position: relative;
     margin: 0 auto;
 }
 
-.about-text {
+.photos-text {
     background-color: #335875;
     width: 660px;
     height: inherit;
     z-index: 2;
+    color: #fff;
+    font-size: 22px;
+    /* margin: 3px; */
+    /* margin-left: 6px; */
+    padding-left: 12px;
 }
 
-.about-image {
+.photos-image {
     width: 320px;
     height: 320px;
     background-size: cover;
