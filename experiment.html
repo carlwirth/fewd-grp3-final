@@ -5,15 +5,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="css/glider.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https:stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Courgette|Great+Vibes|Satisfy&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway|Tangerine&display=swap" rel="stylesheet">
 
-    <title>Sawdust & Dreams™</title>
+    <title>Sawdust & Dreams™ Experimental</title>
 
 </head>
 
 <body class="homepage">
+    <script src="js/glider.min.js"></script>
+
+    <script>
+        new Glider(document.querySelector('.glider'), {
+            slidesToShow: 3,
+            draggable: true,
+            dots: 'dots',
+            arrows: {
+                prev: '.glider-prev',
+                next: '.glider-next',
+            }
+        });
+    </script>
 
     <div class="headerdiv">
         <div class="headerbg" style="background-image: url('images/heart-left-scale.png')">
@@ -38,48 +53,39 @@
 
     </div>
 
-    <div class="mainblock" style="height: 1624px">
-        <!-- height - this is just to hold a large mainblock area -->
-
-        <br>
-        <p style="font-family: tangerine; text-align: center">Thank you for reaching out to us. </p>
-        <p style="font-family: tangerine; text-align: center">Kindly provide us with some information, and we will respond as soon as we are able. </p>
-        <br>
-        <br>
-        <br>
-
-
-        <div class="contact-container">
-            <form id="contact" action="" method="post">
-                <h3>Quick Contact</h3>
-                <h4>Contact us today, and get reply.</h4>
-                <fieldset>
-                    <input placeholder="Your name" type="text" tabindex="1" required autofocus>
-                </fieldset>
-                <fieldset>
-                    <input placeholder="Your Email Address" type="email" tabindex="2" required>
-                </fieldset>
-                <fieldset>
-                    <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
-                </fieldset>
-                <!-- <fieldset>
-                    <input placeholder="Your Web Site starts with http://" type="url" tabindex="4" required>
-                </fieldset> -->
-                <fieldset>
-                    <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
-                </fieldset>
-                <fieldset>
-                    <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
-                </fieldset>
-            </form>
-
-
+    <div class="glider-contain multiple" style="margin:50px">
+        <button class="glider-prev">
+            <i class="fa fa-chevron-left"></i>
+        </button>
+        <div class="glider">
+            <img src="images/tieblankets.png">
+            <img src="images/birthday board.jpg">
+            <img src="images/herb-garden-stand.jpeg">
+            <img src="images/herb-garden-stand.jpeg">
         </div>
+        <button class="glider-next">
+            <i class="fa fa-chevron-right"></i>
+        </button>
+
+        <div id="dots" class="glider-dots"></div>
+    </div>
+    <div class="mainblock">
+
+        <br>
+        <p style="font-family: tangerine; text-align: center">Welcome to Sawdust and Dreams™. </p>
+        <p style="font-family: tangerine; text-align: center">Thank you so much for stopping by. Please spend some time wandering about our site. Get to know us. Look at some of our work. Find that perfet next item for you or gift for someone special. </p>
+        <br>
+        <br>
+
+        <p style="font-family: courgette">How about this style font??? This is courgette..?!!</p>
+        <P style="font-family: great vibes"> This is great vibes..??!!!</P>
+        <p style="font-family: satisfy">This is satisfy </p>
+        <p style="font-family: tangerine">This is tangerine. It does d in a nice way. </p>
 
 
+        <br>
+        <br>
         <img class="column-c-four-eyes" alt="Student chicken with large eyeglasses" src="images/four-eyes-new.png">
-        <p style="font-family: 'Times New Roman', Times, serif; text-align: center; font-size: 25px; color: red"> I'm checking for spelling errors. &#9825; </p>
-
         <br>
         <br>
 
@@ -87,15 +93,13 @@
 
 
     <div class="footer">
-
-
         <hr style="color: #fff; margin: 0">
         <p style="font-size: 30px; text-align: center;  ">
 
 
             Quick Links:
             <a href="index.html" alt="Home Page" title="Home Page">Home</a>
-            <a href="about.html" alt="Sawdust and Dreams™ History" title="Sawdust and dreams™ History">About</a>
+            <a href="about.html" alt="Sawdust and Dreams™ History" title="Sawdust and Dreams™ History">About</a>
             <a href="news.html" alt="News about Sawdust and Dreams™" title="News about Sawdust and Dreams™">News</a>
             <a href="photos.html" alt="Photo Gallery" title="Photo Gallery">Photos</a>
             <a href="events.html" alt="Sawdust and Dreams™ Events" title="Sawdust and Dreams™ Events">Events</a>
@@ -128,6 +132,7 @@
             <p style="text-align: center">Web design by the mighty Group3</p>
             <br>
         </div>
+    </div>
     </div>
 
 </body>
