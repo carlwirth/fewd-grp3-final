@@ -92,15 +92,26 @@
     border: 10px;
 }
 
+.contact-us {
+    color: ghostwhite;
+}
+
+.contact-us:hover {
+    color: sienna;
+    transition: 0.3s;
+}
+
 
 /* mario-links are for "Oak & Iron" */
 
 .mario-links {
-    color: sienna;
+    /* color: sienna; */
+    color: #5b845c;
 }
 
 .mario-links:hover {
-    color: #5b845c;
+    /* color: #5b845c; */
+    color: sienna;
     transition: 0.3s;
 }
 
