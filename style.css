@@ -350,7 +350,7 @@ fieldset {
 }
 
 .photos-image-r {
-    width: 430px;
+    width: 425px;
     background-size: cover;
     background-repeat: no-repeat;
     z-index: 2;
@@ -384,7 +384,7 @@ fieldset {
 }
 
 .photos-image-l {
-    width: 430px;
+    width: 425px;
     background-size: cover;
     background-repeat: no-repeat;
     z-index: 2;
