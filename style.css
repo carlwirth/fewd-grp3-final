@@ -406,3 +406,11 @@ fieldset {
     width: inherit;
     z-index: 2;
 }
+
+
+/* css for Events Page */
+
+.events {
+    font-size: 35px;
+    text-align: center;
+}
