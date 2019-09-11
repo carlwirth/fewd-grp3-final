@@ -106,12 +106,24 @@
 
 .mario-links {
     /* color: sienna; */
-    color: #5b845c;
+    color: #F96;
 }
 
 .mario-links:hover {
-    /* color: #5b845c; */
-    color: sienna;
+    color: #5b845c;
+    /* color: sienna; */
+    transition: 0.3s;
+}
+
+
+/* linus-links are for Project Linus */
+
+.linus-links {
+    color: limegreen;
+}
+
+.linus-links:hover {
+    color: springgreen;
     transition: 0.3s;
 }
 
