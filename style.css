@@ -1,11 +1,11 @@
-.homepage {
-    margin: 0;
-}
-
 @import url('https://fonts.googleapis.com/css?family=Tangerine&display=swap');
 @font-face {
     font-family: woodbadge;
     src: url("media/fonts/Woodbadge.ttf");
+}
+
+.homepage {
+    margin: 0;
 }
 
 .headerdiv {
