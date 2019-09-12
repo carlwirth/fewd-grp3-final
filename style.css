@@ -354,7 +354,7 @@ fieldset {
 
 .photos-div-r {
     width: 820px;
-    height: 560px;
+    /* height: 560px; */
     position: relative;
     margin: 0 auto;
 }
@@ -378,6 +378,7 @@ fieldset {
     background-repeat: no-repeat;
     z-index: 2;
     float: right;
+    margin: 50px;
 }
 
 .please-work-r {
@@ -390,7 +391,7 @@ fieldset {
 
 .photos-div-l {
     width: 820px;
-    height: 560px;
+    /* height: 560px; */
     position: relative;
     margin: 0 auto;
 }
@@ -412,6 +413,7 @@ fieldset {
     background-repeat: no-repeat;
     z-index: 2;
     float: left;
+    margin: 50px;
 }
 
 .please-work-l {
