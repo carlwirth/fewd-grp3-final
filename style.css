@@ -470,3 +470,10 @@ main {
     font-size: 35px;
     text-align: center;
 }
+
+
+/* for (hopefully) making this site work on mobile devices without ugliness */
+
+@media screen (max-width:600px) {
+    width: 100%;
+}
