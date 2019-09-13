@@ -474,6 +474,6 @@ main {
 
 /* for (hopefully) making this site work on mobile devices without ugliness */
 
-@media screen (max-width:600px) {
+@media screen (max-width:481px) {
     width: 100%;
 }
