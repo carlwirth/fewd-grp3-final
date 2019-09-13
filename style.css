@@ -455,7 +455,8 @@ main {
     background-repeat: no-repeat;
     z-index: 2;
     float: left;
-    margin: 30px;
+    margin: 20px;
+    margin-bottom: 10px;
 }
 
 .please-work-l {
