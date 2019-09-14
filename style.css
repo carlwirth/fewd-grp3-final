@@ -43,7 +43,8 @@
         position: relative;
         width: inherit;
         height: inherit;
-        font-size: 15vw;
+        /* font-size: 15vw;           */
+        font-size: 25vw;
         /* padding-bottom: 35px; */
     }
     
@@ -449,6 +450,7 @@
     /* This area is for */
     /* (hopefully)  */
     /* making this site work on mobile devices without ugliness */
+    /* ....GGRRRRrrrrrr..!!! */
     
     @media screen (max-width:481px) {
         /* width: 100%; */
@@ -460,7 +462,7 @@
     
     @media (max-width: 481px) {
         body {
-            background-color: red;
+            background-color: pink;
         }
     }
     
@@ -470,3 +472,4 @@
             height: 16vh;
         }
     }
+    /* At the moment, this is the end of the CSS page. Pheww....  */
