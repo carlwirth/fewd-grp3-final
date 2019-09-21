@@ -1,4 +1,4 @@
-    @import url('https://fonts.googleapis.com/css?family=Tangerine&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Tangerine&display=swap');
     @font-face {
         font-family: woodbadge;
         src: url("media/fonts/Woodbadge.ttf");
@@ -371,12 +371,10 @@
     flex-direction: row-reverse;
     justify-content: flex-end;
 } */
-    /* Here is the CSS for the PHOTOS page. */
+    /* Here is the CSS for the PHOTOS page.
     /* photos to the right */
-    
-    .photos-div-r {
+    /* .photos-div-r {
         width: 820px;
-        /* height: 560px; */
         position: relative;
         margin: 0 auto;
     }
@@ -388,8 +386,6 @@
         z-index: 2;
         color: #fff;
         font-size: 22px;
-        /* margin: 3px; */
-        /* margin-left: 6px; */
         padding-left: 12px;
         padding-right: 12px;
     }
@@ -406,12 +402,10 @@
     .please-work-r {
         width: inherit;
         z-index: 2;
-    }
+    } */
     /* photos to the left */
-    
-    .photos-div-l {
+    /* .photos-div-l {
         width: 820px;
-        /* height: 560px; */
         position: relative;
         margin: 0 auto;
     }
@@ -439,37 +433,40 @@
     
     .please-work-l {
         width: inherit;
-        z-index: 2;
-    }
-    /* css for Events Page */
+        z-index: 2; */
+}
+
+/* css for Events Page */
+.events {
+    font-size: 35px;
+    text-align: center;
+}
+
+/* This area is for */
+
+/* (hopefully)  */
+
+/* making this site work on mobile devices without ugliness */
+
+/* ....GGRRRRrrrrrr..!!! */
+@media screen (max-width:481px) {
+    /* width: 100%; */
     
-    .events {
-        font-size: 35px;
-        text-align: center;
+    body {
+        /* background-color: red; */
+        width: 100%;
     }
-    /* This area is for */
-    /* (hopefully)  */
-    /* making this site work on mobile devices without ugliness */
-    /* ....GGRRRRrrrrrr..!!! */
-    
-    @media screen (max-width:481px) {
-        /* width: 100%; */
-        body {
-            /* background-color: red; */
-            width: 100%;
-        }
+}
+@media (max-width: 481px) {
+    body {
+        background-color: pink;
     }
-    
-    @media (max-width: 481px) {
-        body {
-            background-color: pink;
-        }
+}
+@media (max-width: 481px) {
+    .headerdiv {
+        /* height: 240px; */
+        height: 16vh;
     }
-    
-    @media (max-width: 481px) {
-        .headerdiv {
-            /* height: 240px; */
-            height: 16vh;
-        }
-    }
-    /* At the moment, this is the end of the CSS page. Pheww....  */
+}
+
+/* At the moment, this is the end of the CSS page. Pheww....  */
