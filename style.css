@@ -187,8 +187,18 @@
 }
 
 
+/* css for Events Page */
+
+.events {
+    font-size: 35px;
+    text-align: center;
+}
+
+
 /* Here is the CSS data for the CONTACT page.  */
 
+
+/* 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
 * {
     margin: 0;
@@ -320,7 +330,7 @@ fieldset {
 
  :-ms-input-placeholder {
     color: #888;
-}
+} */
 
 
 /* This area is for the CSS needed for the Home Page's photo Carrossel. */
