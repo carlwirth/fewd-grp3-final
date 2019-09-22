@@ -98,7 +98,7 @@
 }
 
 
-/* css for Events Page */
+/* css for events Page */
 
 .events {
     font-size: 35px;
@@ -187,152 +187,6 @@
 }
 
 
-/* css for Events Page */
-
-.events {
-    font-size: 35px;
-    text-align: center;
-}
-
-
-/* Here is the CSS data for the CONTACT page.  */
-
-
-/* 
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-rendering: optimizeLegibility;
-}
-
-.contact-container {
-    font-family: "Open Sans", Helvetica, Arial, sans-serif;
-    font-weight: 300;
-    font-size: 12px;
-    line-height: 30px;
-    color: #777;
-    background: #0CF;
-}
-
-.contact-container {
-    max-width: 400px;
-    width: 100%;
-    margin: 0 auto;
-    position: relative;
-}
-
-#contact input[type="text"],
-#contact input[type="email"],
-#contact input[type="tel"],
-#contact input[type="url"],
-#contact textarea,
-#contact button[type="submit"] {
-    font: 400 12px/16px "Open Sans", Helvetica, Arial, sans-serif;
-}
-
-#contact {
-    background: #CEF6CE;
-    padding: 25px;
-    margin: 50px 0;
-}
-
-#contact h3 {
-    color: #F96;
-    display: block;
-    font-size: 30px;
-    font-weight: 400;
-}
-
-#contact h4 {
-    margin: 5px 0 15px;
-    display: block;
-    font-size: 13px;
-}
-
-fieldset {
-    border: medium none !important;
-    margin: 0 0 10px;
-    min-width: 100%;
-    padding: 0;
-    width: 100%;
-}
-
-#contact input[type="text"],
-#contact input[type="email"],
-#contact input[type="tel"],
-#contact input[type="url"],
-#contact textarea {
-    width: 100%;
-    border: 1px solid #CCC;
-    background: #FFF;
-    margin: 0 0 5px;
-    padding: 10px;
-}
-
-#contact input[type="text"]:hover,
-#contact input[type="email"]:hover,
-#contact input[type="tel"]:hover,
-#contact input[type="url"]:hover,
-#contact textarea:hover {
-    -webkit-transition: border-color 0.3s ease-in-out;
-    -moz-transition: border-color 0.3s ease-in-out;
-    transition: border-color 0.3s ease-in-out;
-    border: 1px solid #AAA;
-}
-
-#contact textarea {
-    height: 100px;
-    max-width: 100%;
-    resize: none;
-}
-
-#contact button[type="submit"] {
-    cursor: pointer;
-    width: 100%;
-    border: none;
-    background: #0CF;
-    color: #FFF;
-    margin: 0 0 5px;
-    padding: 10px;
-    font-size: 15px;
-}
-
-#contact button[type="submit"]:hover {
-    background: #09C;
-    -webkit-transition: background 0.3s ease-in-out;
-    -moz-transition: background 0.3s ease-in-out;
-    transition: background-color 0.3s ease-in-out;
-}
-
-#contact button[type="submit"]:active {
-    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
-}
-
-#contact input:focus,
-#contact textarea:focus {
-    outline: 0;
-    border: 1px solid #999;
-}
-
- ::-webkit-input-placeholder {
-    color: #888;
-}
-
- :-moz-placeholder {
-    color: #888;
-}
-
- ::-moz-placeholder {
-    color: #888;
-}
-
- :-ms-input-placeholder {
-    color: #888;
-} */
-
-
 /* This area is for the CSS needed for the Home Page's photo Carrossel. */
 
 
@@ -403,104 +257,37 @@ main {
 } */
 
 
-/* Here is the CSS for the PHOTOS page.
-    /* photos to the right */
-
-
-/* .photos-div-r {
-        width: 820px;
-        position: relative;
-        margin: 0 auto;
-    }
-    
-    .photos-text-r {
-        background-color: #335875;
-        width: 760px;
-        height: inherit;
-        z-index: 2;
-        color: #fff;
-        font-size: 22px;
-        padding-left: 12px;
-        padding-right: 12px;
-    }
-    
-    .photos-image-r {
-        width: 425px;
-        background-size: cover;
-        background-repeat: no-repeat;
-        z-index: 2;
-        float: right;
-        margin: 30px;
-    }
-    
-    .please-work-r {
-        width: inherit;
-        z-index: 2;
-    } */
-
-
-/* photos to the left */
-
-
-/* .photos-div-l {
-        width: 820px;
-        position: relative;
-        margin: 0 auto;
-    }
-    
-    .photos-text-l {
-        background-color: #335875;
-        width: 760px;
-        height: inherit;
-        z-index: 2;
-        color: #fff;
-        font-size: 22px;
-        padding-right: 12px;
-        padding-left: 12px;
-    }
-    
-    .photos-image-l {
-        width: 425px;
-        background-size: cover;
-        background-repeat: no-repeat;
-        z-index: 2;
-        float: left;
-        margin: 20px;
-        margin-bottom: 10px;
-    }
-    
-    .please-work-l {
-        width: inherit;
-        z-index: 2; */
-
-
-}
-
 /* This area is for */
+
 
 /* (hopefully)  */
 
+
 /* making this site work on mobile devices without ugliness */
 
+
 /* ....GGRRRRrrrrrr..!!! */
+
 @media screen (max-width:481px) {
     /* width: 100%; */
-    
     body {
         /* background-color: red; */
         width: 100%;
     }
 }
+
 @media (max-width: 481px) {
     body {
         background-color: pink;
     }
 }
+
 @media (max-width: 481px) {
     .headerdiv {
         /* height: 240px; */
         height: 16vh;
     }
 }
+
 
 /* At the moment, this is the end of the CSS page. Pheww....  */
