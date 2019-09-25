@@ -194,11 +194,12 @@
 main {
     display: flex;
     flex-direction: column;
+    margin: 0 auto;
 }
 
 .color {
     padding: 20px;
-    background-color: darkblue;
+    background-color: darkblue !important;
 }
 
 h1 {
@@ -216,6 +217,8 @@ h1 {
 .about-box img {
     position: relative;
     width: 400px;
+    border: darkblue;
+    border-width: 4px !important;
 }
 
 .about-box:nth-child(2n-1) img {
@@ -256,7 +259,15 @@ h1 {
     flex-direction: row-reverse;
     justify-content: flex-end;
 } */
+/* Begin style for Photos Page CSS */
 
+.photos-text-r {
+    font-family: "Raleway";
+}
+
+.photos-text-l {
+    font-family: "Raleway";
+}
 
 /* This area is for */
 
