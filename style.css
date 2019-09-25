@@ -185,6 +185,7 @@
 /* This area is for the CSS needed for the Home Page's photo Carrossel. */
 
 
+
 /* This area is for the About Page CSS*/
 
 
@@ -197,19 +198,24 @@ main {
 
 .color {
     padding: 20px;
-    background-color: beige;
+    background-color: darkblue;
+}
+
+h1 {
+    font-family: "Raleway";
+    color: #fff;
 }
 
 .about-box {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Raleway";
     margin: 50px auto;
     width: 60%;
+    color: #fff;
 }
 
 .about-box img {
     position: relative;
-    width: 300px;
-    border: 2px solid darkblue;
+    width: 400px;
 }
 
 .about-box:nth-child(2n-1) img {
