@@ -89,7 +89,11 @@
     margin: 0 auto;
     width: 97%;
     font-size: 60px;
-    border: 10px;
+    border: 3px;
+}
+
+p {
+    margin: .5em;
 }
 
 
@@ -188,7 +192,6 @@
 
 /* This area is for the About Page CSS*/
 
-
 /* Begin style for About Posts */
 
 main {
@@ -280,7 +283,7 @@ h1 {
 
 /* ....GGRRRRrrrrrr..!!! */
 
-@media screen (max-width:481px) {
+@media (max-width:481px) {
     /* width: 100%; */
     body {
         /* background-color: red; */
