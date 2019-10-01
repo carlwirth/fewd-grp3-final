@@ -198,7 +198,7 @@ main {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-}
+    }
 
 .color {
     padding: 20px;
@@ -211,8 +211,8 @@ h1 {
 }
 
 .about-box {
-    font-family: "Raleway";
-    margin: 50px auto;
+    font-family: "Raleway" !important;
+    margin: 20px auto;
     width: 60%;
     color: #fff;
 }
