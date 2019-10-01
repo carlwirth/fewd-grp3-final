@@ -205,15 +205,16 @@ main {
     background-color: darkblue !important;
 }
 
-h1 {
+h1, h2 {
     font-family: "Raleway";
     color: #fff;
+    padding: 12px;
 }
 
 .about-box {
     font-family: "Raleway" !important;
-    margin: 20px auto;
-    width: 60%;
+    margin: 30px auto;
+    width: 70%;
     color: #fff;
 }
 
@@ -262,13 +263,16 @@ h1 {
     flex-direction: row-reverse;
     justify-content: flex-end;
 } */
-/* Begin style for Photos Page CSS */
+/* Begin style for Photos Page CSS*/
+
 
 .photos-text-r {
+    background-color: darkblue !important;
     font-family: "Raleway";
 }
 
 .photos-text-l {
+    background-color: darkblue !important;
     font-family: "Raleway";
 }
 
