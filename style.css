@@ -220,7 +220,8 @@ h1, h2 {
 
 .about-box img {
     position: relative;
-    width: 400px;
+    width: auto;
+    height: auto;
     border: darkblue;
     border-width: 4px !important;
 }
@@ -269,6 +270,10 @@ h1, h2 {
 .photos-text-r {
     background-color: darkblue !important;
     font-family: "Raleway";
+}
+.photos-image-r {
+    border: 4px;
+    border-color: darkblue;
 }
 
 .photos-text-l {
