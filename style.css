@@ -189,8 +189,8 @@ p {
 /* This area is for the CSS needed for the Home Page's photo Carrossel. */
 
 
-
 /* This area is for the About Page CSS*/
+
 
 /* Begin style for About Posts */
 
@@ -198,14 +198,15 @@ main {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    }
+}
 
 .color {
     padding: 20px;
     background-color: darkblue !important;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: "Raleway";
     color: #fff;
     padding: 12px;
@@ -240,37 +241,13 @@ h1, h2 {
 }
 
 
-/* This was an earlier attempt. (ABOUT page) It did not create the look desired. */
-
-
-/* .sectionblock {
-    display: flex;
-}
-
-.image-left-text-right-container {
-    width: 100%;
-    height: 480px;
-    display: flex;
-}
-
-.solid-fill-box-right {
-    width: 800px;
-    height: 480px;
-    margin-top: 5px;
-    margin-left: 100px;
-    margin-right: auto;
-    margin-bottom: 100px;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: flex-end;
-} */
 /* Begin style for Photos Page CSS*/
-
 
 .photos-text-r {
     background-color: darkblue !important;
     font-family: "Raleway";
 }
+
 .photos-image-r {
     border: 4px;
     border-color: darkblue;
@@ -280,6 +257,7 @@ h1, h2 {
     background-color: darkblue !important;
     font-family: "Raleway";
 }
+
 
 /* This area is for */
 

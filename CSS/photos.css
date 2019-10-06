@@ -4,14 +4,14 @@
 /* photos to the right */
 
 .photos-div-r {
-    width: 820px;
-    /* height: 560px; */
+    width: 70%;
+    /* width: 820px; */
     position: relative;
     margin: 0 auto;
 }
 
 .photos-text-r {
-    background-color: #335875;
+    background-color: darkblue;
     width: 760px;
     height: inherit;
     z-index: 2;
@@ -41,8 +41,8 @@
 /* photos to the left */
 
 .photos-div-l {
-    width: 820px;
-    /* height: 560px; */
+    width: 70%;
+    /* width: 820px; */
     position: relative;
     margin: 0 auto;
 }
