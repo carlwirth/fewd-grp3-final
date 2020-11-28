@@ -12,5 +12,5 @@ The team members include: Carl Wirth, Christy Hutchins, and Desiree VanSyckle.
    - This was a group effort.  We used Visual Studio Code to build the required code.  We utilized GitHub as our Repository host.  
     
 
-Result:  (TBD) 
+Result:  We did great.  The TEAM finished a fun project and the client was thrilled with the result.   
 
